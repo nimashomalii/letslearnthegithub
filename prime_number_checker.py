@@ -2,7 +2,7 @@ import numpy as np
 class prime_checker : 
   def __init__(self):
     pass 
-  def is_prime(self , x ) : 
+  def __call__(self , x ) : 
     if x < 2 : 
       return False
     elif x ==2 : 
