@@ -8,7 +8,7 @@ class prime_checker :
     elif x ==2 : 
       return True 
     else : 
-      for i in range(int(x**0.5) +1 ) :
+      for i in range( 2 , int(x**0.5) +1 , 1) :
         if x%i ==0 :
           return False
       return True 
